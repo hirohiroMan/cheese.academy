@@ -1,0 +1,430 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーtitleー*/
+
+.title{
+	background : url( /00_first_work/img/mainbg.png) ;
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	font-size: 48px;
+}
+	
+.title_text{
+	font-size: 36px;
+}
+
+/* naviエリア　*/
+.navi_box{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: #efefef solid;
+}
+.navi_box_img {
+	width: 20%;
+	height: 80px;
+}
+
+.navi_box_text_box{
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navi_box_text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 21px;
+	/* 均等に配置 */
+	/* 高さ配置が真ん中に */
+}
+
+
+
+/*about
+---------------------*/
+h2{
+	font-size: 24px;
+}
+
+.about_text{
+	margin-top: 120px;
+	margin-bottom: 24px;
+	color: #ffd61a;
+	display: flex;
+	/* 均等に配置 */
+	justify-content: space-around;
+
+}
+
+.about_text_text{
+	display: flex;
+	/* 均等に配置 */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about_text_text_text{
+	margin-top: 64px;
+	margin-bottom: 40px;
+}
+
+.about_text_text_text2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.about_text_text_text3 {
+	margin-bottom: 80px;
+}
+
+/*画像帯
+---------------------*/
+
+img{
+	width: 100%;
+}
+
+/*course
+---------------------*/
+.course{
+	margin-top: 64px;
+	margin-bottom: 64px;
+	display: flex;
+	/* 均等に配置 */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.course_text{
+	font-size: 24px;
+	color: #222222;
+}
+
+.course_image_box{
+	display: flex;
+}
+
+.course_image_box_image{
+	width: 50%;
+}
+
+.course_image_box_text{
+	width: 50%;
+	background: rgb(248, 244, 244);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.course_image_box_text_text{
+	margin-left: 48px;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #222222;
+	display: flex;
+}
+
+.course_image_box_text_text_text{
+	margin-left: 48px;
+}
+
+.course2_image_box {
+	display: flex;
+}
+
+.course2_image_box_image {
+	width: 50%;
+}
+
+.course2_image_box_text {
+	
+	width: 50%;
+	background: rgb(248, 244, 244);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+/* .course2_image_box_text_box{ */
+	/* margin-right: 48px; */
+/* } */
+
+.course2_image_box_text_text {
+	margin-right: 48px;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #222222;
+	display: flex;
+}
+
+.course2_image_box_text_text_text {
+	margin-right: 48px;
+
+}
+
+.course3_image_box {
+	display: flex;
+}
+
+.course3_image_box_image {
+	width: 50%;
+}
+
+.course3_image_box_text {
+	width: 50%;
+	background: rgb(248, 244, 244);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.course3_image_box_text_text {
+	margin-left: 48px;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #222222;
+	display: flex;
+}
+
+.course3_image_box_text_text_text {
+	margin-left: 48px;
+	
+}
+/*news
+---------------------*/
+.news_text {
+	margin-top: 64px;
+	color: #ffd61a;
+	display: flex;
+	/* 均等に配置 */
+	justify-content: space-around;
+
+}
+
+.news_text_text{
+	display: flex;
+	/* 均等に配置 */
+	justify-content: space-around;
+}
+
+.news_image_box{
+	margin: 64px;
+	margin-bottom: 56px;
+	display: flex;
+	/* 均等に配置 */
+	justify-content: space-around;
+}
+.news_image_box_text{
+	margin-left: 32px;
+}
+.news_image_box_text_text{
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+/* 真ん中の箱 */
+.news_image_second_box_text {
+	margin-left: 32px;
+}
+
+.news_image_second_box_text_text {
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+/* 右端のnews */
+.news_image_third_box_text {
+	margin-left: 32px;
+}
+
+.news_image_third_box_text_text {
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+.more_button_text{
+	margin-top: 58px;
+	margin: 48px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.more_button{
+	width: 100px;
+	font-size: 21px;
+	color: #FFFFFF;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	padding: 60px 0 30;
+	background: #6BCBF6;
+	border-radius: 0px;
+
+}
+
+.access{
+	
+	background: #fafafa;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.access_text{
+	margin-top: 64px;
+	margin-bottom: 64px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.access_text_text {
+	margin-bottom: 24px;
+}
+/* 地図 */
+.access_map{
+	margin-bottom: 64px;
+}
+.access_box{
+	margin-bottom: 80px;
+	display: flex;
+		
+}
+.access_box_text1{
+	margin-right: 24px;
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+		
+}
+
+.access_box_text1_text_text1 {
+	margin-bottom: 24px;
+}
+.access_box_text1_text_text2 {
+	margin-bottom: 48px;
+}
+.access_box_text1_text_text3 {
+	margin-bottom: 24px;
+}
+.access_box_text1_text_text4 {
+	margin-bottom: 24px;
+}
+.access_box_text2 {
+	margin-left: 24px;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+.access_box_text2_text_text1{
+	margin-bottom: 24px;
+}
+.access_box_text2_text_text2 {
+	margin-bottom: 24px;
+}
+.access_box_text2_text_text3 {
+	margin-bottom: 24px;
+}
+.access_box_text2_text_text4 {
+	margin-bottom: 24px;
+}
+
+.contact_box{
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items: center;
+}
+.contact_box_text{
+	font-size: 24px;
+	color: #222222;
+	margin-top: 64px;
+}
+.contact_box_text_text1 {
+	margin-bottom: 64px;
+}
+.contact_box_text_text3 {
+	margin-bottom: 32px;
+}
+.contact_box_text_text5 {
+	margin-bottom: 80px;
+}
+
+.contact_form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+/* .contact_form_checkbox{ */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+/* } */
+.contact_form_button{
+	margin-top: 40px;
+	margin-bottom: 120px;
+	width: 100px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	padding: 298px 0 54;
+	background: #ffd37a;
+	border-radius: 0px;
+}
+
+.futta{
+	background-color: #707070;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.futta_text{
+	margin-top: 32px;
+	font-size: 18px;
+	margin-bottom: 32px;
+
+}
